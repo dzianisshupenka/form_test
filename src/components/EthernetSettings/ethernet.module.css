@@ -1,0 +1,48 @@
+.main {
+    padding: 20px;
+    border: 1px solid rgba(78, 78, 78, 0.452);
+    color:#000;
+    font-size: larger;
+}
+
+.radio {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.ipform {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputsWrapper {
+    align-self: flex-end;
+}
+
+.error {
+    margin-left: 400px;
+    color: red;
+    font-weight: 900;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.6;
+}
+
+.input {
+    font-size: 20px;
+    text-align: right;
+    margin: 10px;
+}
+
+.input input {
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.required {
+    color: red;
+}
